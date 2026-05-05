@@ -29,7 +29,7 @@ export default function IntroVideo() {
         <div className="relative mt-10 md:mt-16 mx-auto max-w-[1100px] aspect-video rounded-lg overflow-hidden border border-line-strong bg-bg-2">
           <video
             ref={videoRef}
-            src="https://qbahwckz58hfg3eh.private.blob.vercel-storage.com/intro.mp4"
+            src="https://uxyzqo7ssx7lmh7m.public.blob.vercel-storage.com/intro.mp4"
             controls
             playsInline
             preload="metadata"
