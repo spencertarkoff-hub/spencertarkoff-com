@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f /tmp/next-dev.log)",
+      "Bash(npm run *)",
+      "Bash(echo \"PID=$!\")",
+      "Read(//private/tmp/**)",
+      "Bash(curl -s -o /tmp/rendered.html -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Read(//tmp/**)",
+      "Bash(npx tsc *)",
+      "Bash(grep -oE \"hardest thing you.{0,20}\" /tmp/rendered.html)",
+      "Skill(claude-api)",
+      "Bash(curl *)",
+      "mcp__sequential-thinking__sequentialthinking"
+    ]
+  }
+}
