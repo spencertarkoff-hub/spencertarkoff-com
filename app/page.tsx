@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import IntroVideo from "@/components/IntroVideo";
 import About from "@/components/About";
 import Work from "@/components/Work";
+import InField from "@/components/InField";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <IntroVideo />
         <About />
+        <InField />
         <Work />
       </main>
       <Footer />

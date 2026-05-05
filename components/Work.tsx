@@ -46,7 +46,7 @@ export default function Work() {
     <section id="work" className="border-t border-line w-full">
       <div className="max-w-[1400px] mx-auto px-5 md:px-10 pt-16 md:pt-28">
         <SectionLabel
-          number="03"
+          number="04"
           title="Selected Work"
           subtitle="2024 — 2026"
         />
