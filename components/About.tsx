@@ -13,7 +13,7 @@ export default function About() {
             />
           </div>
 
-          <div className="col-span-12 md:col-start-4 md:col-span-8 mt-10 md:mt-0 space-y-6 text-ink-soft text-base md:text-lg leading-relaxed max-w-3xl">
+          <div className="col-span-12 md:col-start-4 md:col-span-8 mt-10 md:mt-0 space-y-6 text-ink text-[16px] md:text-[17px] leading-[1.7] max-w-3xl">
             <p>
               I was born in San Francisco and grew up in Orinda, California, a
               Bay Area kid with a mom (Janet) who&rsquo;s as fanatical about AI

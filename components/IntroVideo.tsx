@@ -37,6 +37,10 @@ export default function IntroVideo() {
             className="absolute inset-0 w-full h-full object-cover"
           />
         </div>
+
+        <p className="mt-3 mx-auto max-w-[1100px] text-right font-mono text-[12px] uppercase tracking-[0.14em] text-ink-soft">
+          Built with Synthesia
+        </p>
       </div>
     </section>
   );
