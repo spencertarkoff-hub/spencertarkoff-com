@@ -6,12 +6,12 @@ import SectionLabel from "./SectionLabel";
 const photos = [
   {
     src: "https://uxyzqo7ssx7lmh7m.public.blob.vercel-storage.com/field-1-protiviti-ai-training.jpg",
-    context: "Protiviti Chicago · AI training · 2025",
+    context: "Protiviti Chicago · AI training · 2026",
     caption: "Talking with my hands, as usual.",
   },
   {
     src: "https://uxyzqo7ssx7lmh7m.public.blob.vercel-storage.com/field-2-fei-panel.jpg",
-    context: "FEI panel · Generative AI in Finance · 2025",
+    context: "FEI panel · Generative AI in Finance · 2026",
     caption: "My game face.",
   },
   {
