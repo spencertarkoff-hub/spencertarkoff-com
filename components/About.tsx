@@ -56,8 +56,8 @@ export default function About() {
               </strong>
               , building a business process improvement agent that guides
               employees through Protiviti&rsquo;s full five-stage framework and
-              generates the deliverables along the way. Built mostly with
-              Claude and Claude Code. On top of that, I help lead
+              generates the deliverables along the way. I am building it
+              mostly with Claude and Claude Code. On top of that, I help lead
               Protiviti&rsquo;s AI training: 45-minute to two-hour sessions
               inside the firm, at client companies, and at external CFO and
               senior management forums.

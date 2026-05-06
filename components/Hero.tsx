@@ -14,11 +14,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="mt-8 md:mt-10 text-ink-soft text-lg md:text-2xl font-light leading-snug max-w-[640px]">
-          Building useful AI in the places people actually work.
-        </p>
-
-        <div className="mt-10 md:mt-12 grid grid-cols-[5.5rem_1fr] gap-3 max-w-[28rem] font-mono text-xs uppercase tracking-[0.14em] border-t border-line pt-3">
+        <div className="mt-12 md:mt-16 grid grid-cols-[5.5rem_1fr] gap-3 max-w-[28rem] font-mono text-xs uppercase tracking-[0.14em] border-t border-line pt-3">
           <span className="text-ink-soft">Tools /</span>
           <span className="text-ink">Claude Code · Codex · Copilot · Glean</span>
         </div>
