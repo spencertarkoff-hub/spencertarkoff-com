@@ -20,7 +20,7 @@ export default function Hero() {
 
         <div className="mt-10 md:mt-12 grid grid-cols-[5.5rem_1fr] gap-3 max-w-[28rem] font-mono text-xs uppercase tracking-[0.14em] border-t border-line pt-3">
           <span className="text-ink-soft">Tools /</span>
-          <span className="text-ink">Claude Code · Codex · Copilot</span>
+          <span className="text-ink">Claude Code · Codex · Copilot · Glean</span>
         </div>
       </div>
     </section>
