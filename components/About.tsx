@@ -75,9 +75,9 @@ export default function About() {
             <p>
               Outside of work and school, I spent ten years playing competitive
               water polo on a national level, six years coaching swimming and
-              water polo for a Special Olympics team, enjoy pickup basketball
-              when Chicago cooperates, and go for runs on the lakefront when
-              the weather is nice. I love to travel and have been to over 50
+              water polo for a Special Olympics team, and now enjoy pickup
+              basketball when Chicago weather cooperates. I love to travel
+              and have been to over 50
               countries. My family dog is Dorothy and my sister&rsquo;s two
               kittens (of which my parents now have temporary physical custody
               as she lives in a small flat in S.F.) are Callie and Willow.
