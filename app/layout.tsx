@@ -19,9 +19,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Spencer Tarkoff — AI agents & internal tools",
-  description:
-    "Self-taught engineer and ex-consultant building agents, internal tools, and production AI workflows. Based in Chicago.",
+  title: "Spencer Tarkoff",
+  description: "Personal site of Spencer Tarkoff.",
 };
 
 export default function RootLayout({
