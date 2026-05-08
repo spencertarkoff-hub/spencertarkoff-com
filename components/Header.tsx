@@ -3,13 +3,11 @@ const LEFT_LINKS = [
     href: "https://www.linkedin.com/in/spencer-tarkoff-7aa52624b",
     label: "LinkedIn",
     external: true,
-    keepCase: false,
   },
   {
     href: "mailto:spencertarkoff@gmail.com",
-    label: "spencertarkoff@gmail.com",
+    label: "Email",
     external: false,
-    keepCase: true,
   },
 ];
 
@@ -29,9 +27,7 @@ export default function Header() {
                 href={item.href}
                 target={item.external ? "_blank" : undefined}
                 rel={item.external ? "noopener noreferrer" : undefined}
-                className={`nav-link text-ink-soft hover:text-ink${
-                  item.keepCase ? " normal-case" : ""
-                }`}
+                className="nav-link text-ink-soft hover:text-ink"
               >
                 {item.label}
               </a>
