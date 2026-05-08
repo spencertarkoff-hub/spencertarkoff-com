@@ -22,7 +22,7 @@ export default function About() {
               who&rsquo;s such an extrovert she makes me look quiet.
             </p>
             <p>
-              I went to UW&ndash;Madison and majored in finance. I also liked
+              I went to UW&ndash;Madison and majored in finance. I liked
               that the school took sports seriously (even if our football
               results the last few years don&rsquo;t quite make the grade). I
               briefly thought about working in sports and for three years,
