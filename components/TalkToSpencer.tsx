@@ -12,6 +12,7 @@ const SUGGESTIONS = [
 export default function TalkToSpencer() {
   const [open, setOpen] = useState(false);
   const [hasStarted, setHasStarted] = useState(false);
+  const [heroVisible, setHeroVisible] = useState(true);
   const chatRef = useRef<ChatWindowHandle>(null);
 
   useEffect(() => {
@@ -29,6 +30,25 @@ export default function TalkToSpencer() {
     };
   }, [open]);
 
+  useEffect(() => {
+    const handler = () => setOpen(true);
+    window.addEventListener("talkToSpencer:open", handler);
+    return () => window.removeEventListener("talkToSpencer:open", handler);
+  }, []);
+
+  useEffect(() => {
+    const hero = document.getElementById("hero");
+    if (!hero) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setHeroVisible(entry.isIntersecting),
+      { threshold: 0 },
+    );
+    observer.observe(hero);
+    return () => observer.disconnect();
+  }, []);
+
+  const fabHidden = open || heroVisible;
+
   const close = () => setOpen(false);
 
   const handleChip = (prompt: string) => {
@@ -44,13 +64,13 @@ export default function TalkToSpencer() {
         aria-label="Open chat with Spencer's agent"
         aria-expanded={open}
         className={`fixed bottom-7 right-7 z-40 flex items-center gap-2.5 rounded-full bg-ink text-paper px-6 py-3.5 text-[13px] font-medium shadow-[0_12px_30px_-8px_rgba(0,0,0,0.5)] transition-[transform,opacity] duration-200 hover:-translate-y-0.5 ${
-          open ? "opacity-0 pointer-events-none" : "opacity-100"
+          fabHidden ? "opacity-0 pointer-events-none" : "opacity-100"
         }`}
       >
         <span
           aria-hidden="true"
-          className="block w-[7px] h-[7px] rounded-full bg-accent fab-pulse"
-          style={{ boxShadow: "0 0 8px var(--accent)" }}
+          className="block w-[7px] h-[7px] rounded-full bg-green fab-pulse"
+          style={{ boxShadow: "0 0 8px var(--green)" }}
         />
         Talk to Spencer
       </button>

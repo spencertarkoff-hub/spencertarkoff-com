@@ -49,7 +49,7 @@ export default function About() {
               Coach, shipped and is still running in PHM&rsquo;s operations.
             </p>
             <p>
-              I am now a consultant at{" "}
+              I am a consultant at{" "}
               <strong className="font-medium text-ink">Protiviti</strong>,
               currently embedded with a{" "}
               <strong className="font-medium text-ink">
