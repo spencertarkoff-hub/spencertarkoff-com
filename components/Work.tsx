@@ -1,12 +1,20 @@
 import type { ReactNode } from "react";
 import SectionLabel from "./SectionLabel";
 
+type Testimonial = {
+  quote: string;
+  name: string;
+  role: string;
+  imageSrc: string;
+};
+
 type Item = {
   number: string;
   title: ReactNode;
   description: string;
   tag: string;
   year: string;
+  testimonial?: Testimonial;
 };
 
 const ITEMS: Item[] = [
@@ -17,6 +25,13 @@ const ITEMS: Item[] = [
       "Agentic analytics tool evaluating patient-clinician calls. Project-managed and engineered end-to-end.",
     tag: "Agent · Production",
     year: "Summer '25",
+    testimonial: {
+      quote:
+        "PHM CommsCoach has been a meaningful step forward in how we scale quality at PHM, turning what was previously manual and inconsistent into a more proactive and data-driven process. Spencer played a key role in translating a complex operational need into a usable, high-impact tool. It has enabled more consistent, objective feedback for managers and positioned us to proactively identify risks in client interactions as we grow.",
+      name: "Katelyn Smith",
+      role: "Senior Vice President, Corporate Service Delivery, Private Health Management",
+      imageSrc: "/images/katelyn-smith.jpg",
+    },
   },
   {
     number: "02",
@@ -72,6 +87,24 @@ export default function Work() {
                 <div className="text-ink">{item.tag}</div>
                 <div>{item.year}</div>
               </div>
+
+              {item.testimonial ? (
+                <div className="col-span-12 md:col-start-2 md:col-span-10 mt-6 flex items-start gap-4 rounded-xl border border-white/10 bg-white/[0.03] p-5">
+                  <img
+                    src={item.testimonial.imageSrc}
+                    alt={item.testimonial.name}
+                    className="h-12 w-12 rounded-full object-cover object-top flex-shrink-0 mt-0.5"
+                  />
+                  <div>
+                    <p className="text-sm text-white/70 leading-relaxed">
+                      &ldquo;{item.testimonial.quote}&rdquo;
+                    </p>
+                    <p className="mt-3 text-xs font-mono text-white/40 uppercase tracking-wider">
+                      {item.testimonial.name} &middot; {item.testimonial.role}
+                    </p>
+                  </div>
+                </div>
+              ) : null}
             </div>
           </li>
         ))}
