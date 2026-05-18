@@ -6,10 +6,10 @@ Built with Claude Code as a working portfolio that demonstrates the same kind of
 
 ## What's here
 
-- **Talk to Spencer agent** — streaming chat backed by Claude Sonnet 4.5 with prompt caching. System prompt speaks in first person, calibrated through several rounds of voice tuning. Trained on my work, my background, and how I approach problems.
-- **Synthesia avatar intro video** — a ~50-second hello rendered through Synthesia, hosted on Vercel Blob, embedded with native browser controls.
-- **"In the field" photo carousel** — manually-advanced, three photos from real work (AI training, conference panel) plus one personal.
-- **Vector design system** — custom dark aesthetic, blue-violet accent (`#b8c5ff`), Inter + JetBrains Mono, hand-tuned spacing.
+- **Talk to Spencer agent**: streaming chat backed by Claude Sonnet 4.5 with prompt caching. System prompt speaks in first person, calibrated through several rounds of voice tuning. Trained on my work, my background, and how I approach problems.
+- **Synthesia avatar intro video**: a ~50-second hello rendered through Synthesia, hosted on Vercel Blob, embedded with native browser controls.
+- **"In the field" photo carousel**: manually-advanced, three photos from real work (AI training, conference panel) plus one personal.
+- **Vector design system**: custom dark aesthetic, blue-violet accent (`#b8c5ff`), Inter + JetBrains Mono, hand-tuned spacing.
 
 ## Stack
 
@@ -33,9 +33,7 @@ Built with Claude Code as a working portfolio that demonstrates the same kind of
 
 ## Why I built this
 
-I'm a business performance improvement consultant at Protiviti and I help lead our AI training. Most of my paid work is confidential client engagements, which means I can't show it in a portfolio. This site is the workaround: a real production app, built end-to-end with Claude Code, that demonstrates the kind of integration work I actually do — including a working agent visitors can interact with.
-
-It's also a stress test for me. If I can't ship my own site with these tools, I shouldn't be teaching other people to ship theirs.
+I'm a business performance improvement consultant at Protiviti and I help lead our AI training. Most of my work is confidential client engagements, which means I can't show it in a portfolio. This site is the workaround: a real production app, built end-to-end with Claude Code, that demonstrates the kind of integration work I actually do. It includes a working agent visitors can interact with.
 
 ## Running locally
 
