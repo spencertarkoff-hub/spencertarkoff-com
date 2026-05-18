@@ -25,7 +25,7 @@ const photos: Photo[] = [
   },
   {
     src: "/images/demo-robert-half.jpg",
-    context: "Robert Half × Protiviti · Copilot event · 2025",
+    context: "Robert Half × Protiviti · Copilot event · 2026",
     caption: "Demo mode.",
     linkedInUrl:
       "https://www.linkedin.com/posts/nick-mckeehan-a120851_robert-half-and-protiviti-hosted-a-copilot-activity-7458519336748625920-NPKF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD3V-vIBAAr0Rf9F_KzGsSbX0NPwK9aKRkc",
