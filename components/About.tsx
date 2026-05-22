@@ -35,9 +35,9 @@ export default function About() {
               <strong className="font-medium text-ink">
                 Private Health Management
               </strong>
-              . This was in summer 2025, pre Claude Code and Codex. PHM had
-              issues monitoring the quality of patient-clinician calls which
-              was causing business disruptions. I built an AI agent to identify
+              . This was in summer 2025, pre Claude Code and Codex. PHM was
+              struggling to monitor the quality of patient-clinician calls,
+              which was causing business disruptions. I built an AI agent to identify
               problem interactions sooner and provide more time for mitigation.
             </p>
             <p>
