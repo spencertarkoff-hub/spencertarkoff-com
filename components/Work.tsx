@@ -42,7 +42,7 @@ const ITEMS: Item[] = [
       </>
     ),
     description:
-      "An AI assistant that guides managers through process-improvement lifecycles — producing project plans, process maps, and implementation roadmaps. Built with Glean + Claude.",
+      "An AI assistant that guides managers through process-improvement lifecycles. Produces project plans, process maps, and implementation roadmaps. Built with Glean + Claude.",
     tag: "Agent · Iterating",
     year: "'25 — Now",
   },
